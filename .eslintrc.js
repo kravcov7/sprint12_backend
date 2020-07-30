@@ -1,3 +1,4 @@
+/* eslint-disable quote-props */
 module.exports = {
   env: {
     browser: true,
@@ -12,5 +13,7 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
+    // eslint-disable-next-line quotes
+    "no-underscore-dangle": ["error", { "allow": ["_id"] }]
   },
 };
