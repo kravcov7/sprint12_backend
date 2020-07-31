@@ -1,6 +1,7 @@
 /* eslint-disable no-console */
 /* eslint-disable eol-last */
 const express = require('express');
+
 const { PORT = 3000 } = process.env;
 const path = require('path');
 const usersRouter = require('./routes/users');

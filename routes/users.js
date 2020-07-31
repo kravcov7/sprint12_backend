@@ -10,7 +10,7 @@ const getUsers = (req, res) => {
     .then((data) => {
       const users = JSON.parse(data);
       if (!users) {
-        res.status(404).send({ message: 'Запрашиваемый ресурс не найден'});
+        res.status(404).send({ message: 'Запрашиваемый ресурс не найден' });
       } else { res.send(users); }
 
     })
