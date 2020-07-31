@@ -1,14 +1,14 @@
 {
   "name": "sprint12",
   "version": "1.0.0",
-  "description": "",
+  "description": "server for maesto",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Artem Kravcov <dr.artem-k@yandex.ru>",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
