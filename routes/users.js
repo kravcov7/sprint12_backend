@@ -15,7 +15,7 @@ const getUsers = (req, res) => {
 
     })
     .catch((err) => {
-      res.status(500).send(err);
+      res.status(500).send({ message: err.message });
     });
 };
 
@@ -30,7 +30,7 @@ const getUser = (req, res) => {
       res.status(404).send({ message: 'Нет пользователя с таким id' });
     })
     .catch((err) => {
-      res.status(500).send(err);
+      res.status(500).send({ message: err.message });
     });
 };
 
